@@ -1,0 +1,8 @@
+For Server
+1) open server folder with help of cmd
+2) run npm install
+3) run server using npm run auth
+
+For project folder
+1) run npm install
+2) npm start start the server. 
