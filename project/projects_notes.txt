@@ -1,0 +1,25 @@
+Node:
+
+V20.2.0
+npm:
+9.8.0
+
+library:
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+
+HTML5
+Css3
+
+package 
+
+concurrently : https://www.npmjs.com/package/concurrently
+
+npx json-server --watch db.json --port 3031
+npm run json-server
+http://localhost:3031/users
+
+else
+
+concurretly : npm run server-dev
+  

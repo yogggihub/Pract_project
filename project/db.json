@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "userRole": "Admin",
+      "firstName": "Yogesh",
+      "lastName": "Girase",
+      "gender": "Male",
+      "birthDay": "2023-08-15",
+      "mobile": "8850551087",
+      "email": "yogesh_girase@persistent.com",
+      "address": "HOUSE NO 22, RAJPUT GALLI, VARSOOS, AT POST PATAN, TALUKA SINDKHEDA, TALUKA SINDKHEDA, Dhule, Maharashtra, 425406 Dhule",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "userRole": "User",
+      "firstName": "Mayank",
+      "lastName": "Rajput",
+      "gender": "Male",
+      "birthDay": "2023-08-15",
+      "mobile": "9137629236",
+      "email": "yogeshrajput414@gmail.com",
+      "address": "HOUSE NO 22, RAJPUT GALLI, VARSOOS, AT POST PATAN, TALUKA SINDKHEDA, TALUKA SINDKHEDA, Dhule, Maharashtra, 425406 Dhule",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "password": "12345",
+      "id": 2
+    }
+  ]
+}

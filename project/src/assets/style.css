@@ -1,0 +1,410 @@
+/* global variable declaration */
+* {
+  font-family: "Source Code Pro", monospace;
+  margin: 0;
+}
+:root {
+  --darkblue: darkblue;
+  --white: #ffffff;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.headerWrapper {
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--darkblue);
+  cursor: pointer !important;
+}
+.headerIcons {
+  margin-top: 10px;
+  cursor: pointer !important;
+  color: darkblue;
+  font-weight: 600;
+}
+.container {
+  display: flex;
+}
+a {
+  text-decoration: none !important;
+  color: inherit;
+  cursor: pointer !important;
+}
+.navBarItem {
+  text-decoration: none !important;
+  color: inherit;
+  cursor: pointer !important;
+  list-style: none;
+}
+.userList .navBar {
+  width: 58px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(206, 206, 232);
+  color: darkblue;
+  font-weight: 600;
+  height: 22px;
+  padding: 8px 10px;
+  margin: 8px;
+}
+.sidebar {
+  flex: 1;
+  height: calc(100vh - 50px);
+  background-color: #f9f3f3;
+}
+.sidebarWrapper {
+  color: darkblue;
+  font-weight: 600;
+}
+.sidebarMenu {
+  margin-bottom: 10px;
+}
+.sidebarTitle {
+  font-size: 16px;
+}
+.sidebarList {
+  list-style: none;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.sidebarListItem {
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer !important;
+}
+
+.sidebarListItem:active,
+.sidebarListItem:hover {
+  background-color: #f5e7e7;
+  color: rgb(45, 45, 156);
+}
+
+.errorMsg {
+  color: red;
+  font-size: 20px;
+  flex: 4;
+  text-align: center;
+  vertical-align: middle;
+}
+.home {
+  flex: 4;
+  padding: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+.login {
+  width: 50%;
+  margin: auto;
+}
+.userLoginForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: center;
+}
+.userLoginForm .loginField > input {
+  width: 84%;
+}
+.loginField {
+  width: 84%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.loginField > label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: grey;
+}
+.loginField > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.errorMsg {
+  color: red;
+}
+
+.userLoginBtn {
+  width: 150px;
+  cursor: pointer !important;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.register {
+  flex: 4;
+  padding: 10px;
+}
+.headerwrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+.register a {
+  width: 80px;
+  cursor: pointer !important;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  padding: 4px 6px;
+  font-weight: 600;
+}
+.userRegForm {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.regField {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.regField > label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: grey;
+}
+.regField > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.userRegBtn {
+  width: 160px;
+  height: 40px;
+  cursor: pointer !important;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(206, 206, 232);
+  color: darkblue;
+  font-weight: 600;
+  margin-top: 10px;
+  margin: 10px;
+}
+.genderItem > label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+.genderItem > input {
+  margin-top: 15px;
+}
+.dropDown {
+  height: 40px;
+  border-radius: 5px;
+}
+.errorMsg {
+  color: rgb(174, 106, 106);
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+}
+.success {
+  color: darkblue;
+}
+.userList {
+  flex: 4;
+  margin: 10px;
+}
+.table-container {
+  border-collapse: collapse;
+  font-size: 18px;
+  min-width: 400px;
+  width: 100%;
+}
+.table-container thead tr {
+  background-color: rgb(206, 206, 232);
+  text-align: left;
+  color: darkblue;
+  font-family: inherit;
+  font-weight: 200;
+  font-size: 18px;
+}
+.table-container :where(th, td) {
+  padding: 10px;
+  font-size: 12px;
+}
+.table-container tbody tr {
+  border: 1px solid #ddd;
+}
+.searchBox {
+  margin: 14px;
+  float: right;
+  padding: 5px;
+  border-radius: 5px;
+}
+.table-container .actionbtn {
+  text-align: center;
+}
+.viewbtn {
+  color: green;
+  cursor: pointer !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+.editbtn {
+  color: dodgerblue;
+  cursor: pointer !important;
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.deletebtn {
+  color: orange;
+  cursor: pointer !important;
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.viewcontainer {
+  flex: 4;
+  margin: 10px;
+}
+.viewcontainer .viewField {
+  display: flex;
+  flex-wrap: wrap;
+}
+.regField :first-child {
+  font-size: 16px;
+  color: #242222;
+  font-weight: 500;
+}
+.regField :nth-child(2) {
+  font-size: 14px;
+  color: #393535;
+  font-weight: 500;
+}
+.header_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.backBtn {
+  width: 40px;
+  height: 20px;
+  cursor: pointer !important;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(206, 206, 232);
+  color: darkblue;
+  font-weight: 600;
+  padding: 10px 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.loginbtn {
+  width: 73px;
+  height: 35px;
+  cursor: pointer !important;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(206, 206, 232);
+  color: darkblue;
+  font-weight: 600;
+  font-size: inherit;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  margin: 4px;
+  padding: 0;
+  color: darkblue;
+}
+.active {
+  color: orange;
+}
+.pagination li {
+  margin: 0 4px;
+}
+.pagination li button {
+  cursor: pointer;
+}
+.headerNavBar {
+  width: 118;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(206, 206, 232);
+  color: darkblue;
+  font-weight: 600;
+  height: 22px;
+  padding: 8px 10px;
+  margin: 8px;
+}
+.topRight {
+  display: flex;
+}
+/*Slider Css*/
+.slider-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+.thumbnail {
+  position: relative;
+  top: -26px;
+}
+.thumbnail img {
+  margin: 0 4px;
+  cursor: pointer;
+  box-shadow: #2926ee;
+}
+.slider-controlers {
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  position: relative;
+  top: -200px;
+  cursor: pointer;
+}
+.slider-controlers :where(button) {
+  cursor: pointer;
+}
+.activeSlider {
+  border: 2px solid #2926ee;
+}
+.direction-control {
+  position: relative;
+  top: -14px;
+}
+.pause-btn {
+  margin-left: 10px;
+}
+.direction-control :where(button) {
+  cursor: pointer;
+}
